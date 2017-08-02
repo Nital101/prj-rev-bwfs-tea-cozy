@@ -1,0 +1,113 @@
+* {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+
+}
+
+h2 {
+	font-size: 1.5em;
+	
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h2 h3 h4 {
+	margin: 0;
+    padding: 10px;
+}
+
+#header {
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+#logo {
+	height: 50px;
+	margin: 9.5px 10px;
+}
+
+#header-right li {
+	display: inline-block;
+	text-decoration: underline;
+	margin-left: 25px;
+}
+
+#header-right {
+	margin-right: 30px;
+}
+
+#main-content {
+	padding-top: 69px;
+	width: 1200px;
+	margin: auto;
+}
+
+.content-section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#mission {
+	padding-top: 70px;
+	height: 700px;
+	background-image: url("./images/img-mission-background.jpg")
+}
+
+#mission-banner {
+	width: 1200px;
+	margin: auto;
+	opacity: 1;
+}
+
+.flexitem img {
+	height: 200px;
+	width: 300px;
+}
+
+.flexitem {
+	margin: 10px;
+}
+
+#totm-banner {
+	width: 1200px;
+}
+
+#locations {
+	height: 500px;
+	background-image: url("./images/img-locations-background.jpg");
+}
+
+.location-flex {
+	width: 300px;
+	height: 220px;
+	margin: 15px 20px;
+}
+
+#loc-banner {
+	width: 1200px;
+	background: none;
+}
+
+#footer {
+	flex-direction: column;
+	margin: auto;
+}
+
+#copyright h5 {
+	text-align: left;
+	margin-left: 20px;
+	
+}
+
